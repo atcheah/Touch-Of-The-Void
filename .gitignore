@@ -1,0 +1,32 @@
+# IDE
+.vs/
+.vscode/
+.idea/*
+
+# Build output
+build/
+out/
+
+# Cmake output
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CMakeSettings.json
+
+# Compiled output
+*.o
+*.so
+*.a
+*.dll
+*.exe
+
+# OS generated files
+.DS_Store
+
+# Exclude library files
+!ext/**/*.dll
+!ext/**/*.lib
+!ext/**/*.a
+
+ext/project_path.hpp
